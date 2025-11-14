@@ -73,40 +73,26 @@
                         <input type="text" class="form-control" id="Postal" />
                     </div>
                     <div class="col-md-6">
-                        <label class="form-label d-block">We accept:</label>
-                        
-                        <div class="bg-secondary p-2 rounded d-inline-flex justify-content-between align-items-center"
-                            style="min-width: 260px;">
-
-                            <div class="form-check form-check-inline text-light mb-0">
-                                <input type="radio" class="form-check-input me-1" name="Tarjeton" id="mastercard"
-                                    required>
-                                <label for="mastercard" class="form-check-label mb-0">
-                                    <i class="fa-brands fa-cc-mastercard"></i>
-                                </label>
+                        <label for="Tarjeta" class="form-label d-block">We accept:</label>
+                        <div class="d-flex ">
+                            <div class="form-check form-check-inline">
+                                <input type="radio" class="form-check-input" name="Tarjeton" id="tarjetaBancaria">
+                                <label for="Tarjeton" class="form-label"><i
+                                        class="fa-brands fa-cc-mastercard"></i></label>
                             </div>
-
-                            <div class="form-check form-check-inline text-light mb-0">
-                                <input type="radio" class="form-check-input me-1" name="Tarjeton" id="visa">
-                                <label for="visa" class="form-check-label mb-0">
-                                    <i class="fa-brands fa-cc-visa"></i>
-                                </label>
+                            <div class="form-check form-check-inline">
+                                <input type="radio" class="form-check-input" name="Tarjeton" id="tarjetaBancaria">
+                                <label for="Tarjeton" class="form-label"><i class="fa-brands fa-cc-visa"></i></label>
                             </div>
-
-                            <div class="form-check form-check-inline text-light mb-0">
-                                <input type="radio" class="form-check-input me-1" name="Tarjeton" id="diners">
-                                <label for="diners" class="form-check-label mb-0">
-                                    <i class="fa-brands fa-cc-diners-club"></i>
-                                </label>
+                            <div class="form-check form-check-inline">
+                                <input type="radio" class="form-check-input" name="Tarjeton" id="tarjetaBancaria">
+                                <label for="Tarjeton" class="form-label"><i
+                                        class="fa-brands fa-cc-diners-club"></i></label>
                             </div>
-
-                            <div class="form-check form-check-inline text-light mb-0">
-                                <input type="radio" class="form-check-input me-1" name="Tarjeton" id="amex">
-                                <label for="amex" class="form-check-label mb-0">
-                                    <i class="fa-brands fa-cc-amex"></i>
-                                </label>
+                            <div class="form-check form-check-inline">
+                                <input type="radio" class="form-check-input" name="Tarjeton" id="tarjetaBancaria">
+                                <label for="Tarjeton" class="form-label"><i class="fa-brands fa-cc-amex"></i></label>
                             </div>
-
                         </div>
                     </div>
                     <div class="col-md-6">
